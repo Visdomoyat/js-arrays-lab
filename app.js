@@ -1,3 +1,5 @@
+console.log("======================Exercise 1======================")
+
 /*
 Exercise 1: Define an empty array
 
@@ -7,6 +9,10 @@ Exercise 1 has been completed for you:
 */
 const foods = []
  console.log('Exercise 1 result:', foods);
+
+
+ console.log("======================Exercise 2======================")
+
 /*
 Exercise 2: Add strings to the array
 
@@ -19,6 +25,8 @@ Complete Exercise 2 in the space below:
 foods.push('pizza', 'cheeseburger')
 console.log('Exercise 2 result:', foods);
 
+console.log("======================Exercise 3======================")
+
 /*
 Exercise 3: Insert at the beginning
 
@@ -29,6 +37,8 @@ Complete Exercise 3 in the space below:
 
 foods.unshift('taco');
 console.log('Exercise 3 result:', foods);
+
+console.log("======================Exercise 4======================")
 
 /*
 Exercise 4: Access an array element
@@ -43,6 +53,8 @@ Complete Exercise 4 in the space below:
 const favFood = foods[1];
 console.log('Exercise 4 result:', favFood);
 
+console.log("======================Exercise 5======================")
+
 /*
 Exercise 5: Insert an element between two others
 
@@ -54,6 +66,8 @@ Complete Exercise 5 in the space below:
 foods.splice(2,0,'tofu'); 
 console.log('Exercise 5 result:', foods);
 
+console.log("======================Exercise 6======================")
+
 /*
 Exercise 6: Replace elements
 
@@ -64,6 +78,8 @@ Complete Exercise 6 in the space below:
 
 foods.splice(1,1, 'sushi', 'cupcakes');
 console.log('Exercise 6 result:', foods);
+
+console.log("======================Exercise 7======================")
 
 /*
 Exercise 7: Using the `slice()` method
@@ -83,6 +99,8 @@ yummy.splice(2,0, 'cupcakes');
 console.log(yummy);
 console.log ('Exercise 7 result:', yummy.slice(1,3));
 
+console.log("======================Exercise 8======================")
+
 /*
 Exercise 8: Finding an index
 
@@ -96,6 +114,8 @@ Complete Exercise 8 in the space below:
 
 const soyIdx = foods.indexOf('tofu');
 console.log('Exercise 8 result:', soyIdx);
+
+console.log("======================Exercise 9======================")
 
 /*
 Exercise 9: Joining elements
@@ -114,6 +134,8 @@ Complete Exercise 9 in the space below:
 const allFoods = foods.join('->');
 console.log('Exercise 9 result:', allFoods);
 
+console.log("======================Exercise 10======================")
+
 /*
 Exercise 10: Check for an element
 
@@ -128,8 +150,8 @@ Complete Exercise 10 in the space below:
 const hasSoup = foods.includes('soup')
 console.log('Exercise 10 result:', hasSoup);
 
-// Looping and Manipulation
-//For loop
+console.log("======================Exercise 11======================")
+
 /*Exercise 11: Odd numbers from an array
 
 1) Choose a method to iterate through the `nums` array.
@@ -149,6 +171,8 @@ for(let i = 0; i < nums.length; i++ ) {
     }
 }
 console.log('Exercise 11 result:', odds);
+
+console.log("======================Exercise 12======================")
 
 /*
 Exercise 12: FizzBuzz with arrays
@@ -196,6 +220,8 @@ console.log('  fizz:', fizz);
 console.log('  buzz:', buzz);
 console.log('  fizzbuzz:', fizzbuzz);
 
+console.log("======================Exercise 13======================")
+
 /*
 Exercise 13: Retrieve the Last Array
 
@@ -218,6 +244,8 @@ const numList =numArrays[3];
 
 console.log('Exercise 13 result:', numList);
 
+console.log("======================Exercise 14======================")
+
 /*
 Exercise 14: Accessing within nested arrays
 
@@ -231,6 +259,8 @@ Complete Exercise 14 in the space below:
 
 const num = numArrays[2][1];
 console.log('Exercise 14 result:', num);
+
+console.log("======================Exercise 15======================")
 
 /*
 Exercise 15: Nested array sum
